@@ -1,9 +1,3 @@
-//
-//  AIApplicationLayerAppTests.swift
-//  AIApplicationLayerAppTests
-//
-//  Created by Crop-Off-Drone TRADEHOUSE LLC on 13.09.2026.
-//
 
 import XCTest
 @testable import AIApplicationLayerApp
