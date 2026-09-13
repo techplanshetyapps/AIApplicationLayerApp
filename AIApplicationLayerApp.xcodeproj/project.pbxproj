@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF8315483056CCA600BEF8D9 /* AIApplicationLayerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8315473056CCA600BEF8D9 /* AIApplicationLayerAppApp.swift */; };
-		FF83154A3056CCA600BEF8D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8315493056CCA600BEF8D9 /* ContentView.swift */; };
 		FF83154C3056CCA800BEF8D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF83154B3056CCA800BEF8D9 /* Assets.xcassets */; };
 		FF83154F3056CCA800BEF8D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF83154E3056CCA800BEF8D9 /* Preview Assets.xcassets */; };
 		FF8315593056CCA800BEF8D9 /* AIApplicationLayerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8315583056CCA800BEF8D9 /* AIApplicationLayerAppTests.swift */; };
 		FF8315633056CCA800BEF8D9 /* AIApplicationLayerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8315623056CCA800BEF8D9 /* AIApplicationLayerAppUITests.swift */; };
 		FF8315653056CCA800BEF8D9 /* AIApplicationLayerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8315643056CCA800BEF8D9 /* AIApplicationLayerAppUITestsLaunchTests.swift */; };
+		FF8315793056CD2B00BEF8D9 /* AIApplicationLayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8315713056CD2B00BEF8D9 /* AIApplicationLayerApp.swift */; };
+		FF83157A3056CD2B00BEF8D9 /* HomeContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8315723056CD2B00BEF8D9 /* HomeContactView.swift */; };
+		FF83157B3056CD2B00BEF8D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8315733056CD2B00BEF8D9 /* ContentView.swift */; };
+		FF83157C3056CD2B00BEF8D9 /* DashboardPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8315743056CD2B00BEF8D9 /* DashboardPanelView.swift */; };
+		FF83157D3056CD2B00BEF8D9 /* DashboardScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8315753056CD2B00BEF8D9 /* DashboardScene.swift */; };
+		FF83157E3056CD2B00BEF8D9 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8315763056CD2B00BEF8D9 /* APIClient.swift */; };
+		FF83157F3056CD2B00BEF8D9 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8315773056CD2B00BEF8D9 /* MotionManager.swift */; };
+		FF8315803056CD2B00BEF8D9 /* PosterVideoBillboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8315783056CD2B00BEF8D9 /* PosterVideoBillboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +41,6 @@
 
 /* Begin PBXFileReference section */
 		FF8315443056CCA600BEF8D9 /* AIApplicationLayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIApplicationLayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF8315473056CCA600BEF8D9 /* AIApplicationLayerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIApplicationLayerAppApp.swift; sourceTree = "<group>"; };
-		FF8315493056CCA600BEF8D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF83154B3056CCA800BEF8D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF83154E3056CCA800BEF8D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF8315543056CCA800BEF8D9 /* AIApplicationLayerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIApplicationLayerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,14 @@
 		FF83155E3056CCA800BEF8D9 /* AIApplicationLayerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIApplicationLayerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8315623056CCA800BEF8D9 /* AIApplicationLayerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIApplicationLayerAppUITests.swift; sourceTree = "<group>"; };
 		FF8315643056CCA800BEF8D9 /* AIApplicationLayerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIApplicationLayerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF8315713056CD2B00BEF8D9 /* AIApplicationLayerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIApplicationLayerApp.swift; sourceTree = "<group>"; };
+		FF8315723056CD2B00BEF8D9 /* HomeContactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeContactView.swift; sourceTree = "<group>"; };
+		FF8315733056CD2B00BEF8D9 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF8315743056CD2B00BEF8D9 /* DashboardPanelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardPanelView.swift; sourceTree = "<group>"; };
+		FF8315753056CD2B00BEF8D9 /* DashboardScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardScene.swift; sourceTree = "<group>"; };
+		FF8315763056CD2B00BEF8D9 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		FF8315773056CD2B00BEF8D9 /* MotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		FF8315783056CD2B00BEF8D9 /* PosterVideoBillboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterVideoBillboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +106,14 @@
 		FF8315463056CCA600BEF8D9 /* AIApplicationLayerApp */ = {
 			isa = PBXGroup;
 			children = (
-				FF8315473056CCA600BEF8D9 /* AIApplicationLayerAppApp.swift */,
-				FF8315493056CCA600BEF8D9 /* ContentView.swift */,
+				FF8315713056CD2B00BEF8D9 /* AIApplicationLayerApp.swift */,
+				FF8315763056CD2B00BEF8D9 /* APIClient.swift */,
+				FF8315733056CD2B00BEF8D9 /* ContentView.swift */,
+				FF8315743056CD2B00BEF8D9 /* DashboardPanelView.swift */,
+				FF8315753056CD2B00BEF8D9 /* DashboardScene.swift */,
+				FF8315723056CD2B00BEF8D9 /* HomeContactView.swift */,
+				FF8315773056CD2B00BEF8D9 /* MotionManager.swift */,
+				FF8315783056CD2B00BEF8D9 /* PosterVideoBillboard.swift */,
 				FF83154B3056CCA800BEF8D9 /* Assets.xcassets */,
 				FF83154D3056CCA800BEF8D9 /* Preview Content */,
 			);
@@ -195,6 +213,7 @@
 				TargetAttributes = {
 					FF8315433056CCA600BEF8D9 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					FF8315533056CCA800BEF8D9 = {
 						CreatedOnToolsVersion = 14.2;
@@ -257,8 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF83154A3056CCA600BEF8D9 /* ContentView.swift in Sources */,
-				FF8315483056CCA600BEF8D9 /* AIApplicationLayerAppApp.swift in Sources */,
+				FF83157A3056CD2B00BEF8D9 /* HomeContactView.swift in Sources */,
+				FF83157F3056CD2B00BEF8D9 /* MotionManager.swift in Sources */,
+				FF83157D3056CD2B00BEF8D9 /* DashboardScene.swift in Sources */,
+				FF8315793056CD2B00BEF8D9 /* AIApplicationLayerApp.swift in Sources */,
+				FF8315803056CD2B00BEF8D9 /* PosterVideoBillboard.swift in Sources */,
+				FF83157C3056CD2B00BEF8D9 /* DashboardPanelView.swift in Sources */,
+				FF83157B3056CD2B00BEF8D9 /* ContentView.swift in Sources */,
+				FF83157E3056CD2B00BEF8D9 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AIApplicationLayerApp/Preview Content\"";
@@ -433,6 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = student.AIApplicationLayerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AIApplicationLayerApp/Preview Content\"";
